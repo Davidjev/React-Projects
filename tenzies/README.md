@@ -8,17 +8,18 @@ To use this application, simply type in your desired text in the "Top text" and 
 
 ### Installation
 
-To run this application locally, follow these steps:\
-*Clone the repository to your local machine.
-*Navigate to the project directory in your terminal.
-*Run npm install to install the required dependencies.
-*Run npm start to start the development server.
-*Open your web browser and navigate to http://localhost:3000.
+To run this application locally, follow these steps:
+
+Clone the repository to your local machine.
+Navigate to the project directory in your terminal.
+Run npm install to install the required dependencies.
+Run npm start to start the development server.
+Open your web browser and navigate to http://localhost:3000.
 
 ### Dependencies
 
 This application uses the following dependencies:\
 
-*React
-*react-dom
-*react-scripts
+React
+react-dom
+react-scripts
