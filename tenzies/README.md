@@ -18,7 +18,7 @@ Open your web browser and navigate to http://localhost:3000.
 
 ### Dependencies
 
-This application uses the following dependencies:\
+This application uses the following dependencies:
 
 React
 react-dom
