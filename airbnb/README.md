@@ -27,4 +27,10 @@ Clone the repository to your local machine.
 Install the dependencies by running npm install in the root directory of the project.  
 Start the development server by running npm start. This will start the webpack dev server and launch the application in your default browser.  
 
+### Technologies Used  
+
+React  
+HTML/CSS  
+
+
 
