@@ -1,25 +1,37 @@
-# Meme Generator
+# Tenzies Game React App
 
-This is a simple React application that allows users to generate random memes with custom text.
+This is a React application that simulates the game of Tenzies, which involves rolling and holding dice to try and get all of the dice to display the same value.
 
-## Usage
+The application uses several React hooks such as useState and useEffect to dynamically update data on the page and respond to user interactions.
 
-To use this application, simply type in your desired text in the "Top text" and "Bottom text" input fields and click the "Get a new meme image" button. The application will retrieve a random meme image from the Imgflip API and display it with your custom text.
+## Getting Started
 
-### Installation
+To run the application, you will need to have Node.js and npm installed on your machine.
 
-To run this application locally, follow these steps:
 
-Clone the repository to your local machine.
-Navigate to the project directory in your terminal.
-Run npm install to install the required dependencies.
-Run npm start to start the development server.
-Open your web browser and navigate to http://localhost:3000.
+### Clone this repository to your local machine
+
+Install dependencies by running npm install in the project directory
+Start the development server by running npm start
+Open your browser and navigate to http://localhost:3000 to play the game
+
+### How to Play
+
+Click the "Roll" button to roll the dice
+Click on individual dice to hold them at their current value
+Keep rolling and holding dice until all dice display the same value
+If you achieve Tenzies (all dice display the same value), confetti will appear and you can click "New Game" to play again
 
 ### Dependencies
 
 This application uses the following dependencies:
 
 React
-react-dom
-react-scripts
+nanoid
+react-confetti
+
+
+### Credits
+
+This application was created by [David Jevtic].
+These dependencies are included in the package.json file and will be installed automatically when running npm install.
