@@ -16,8 +16,13 @@ This will start the app in development mode and open it in your default browser 
 
 ### Main Component
 
-The Main component is defined in the src/components/Main.js file. It renders a <main> element that displays some fun facts about React. The facts are rendered as a list (<ul>) with each item as a list element (<li>).  
+The Main component is defined in the src/components/Main.js file.  
+It renders a <main> element that displays some fun facts about React.  
+The facts are rendered as a list (<ul>) with each item as a list element (<li>).  
 
 ### Navbar Component
 
-The Navbar component is defined in the src/components/Navbar.js file. It renders a <nav> element that contains a logo image and some text. The logo is sourced from an image file and is displayed using an <img> tag. The text consists of a heading (<h3>) and a title (<h4>).  
+The Navbar component is defined in the src/components/Navbar.js file.  
+It renders a <nav> element that contains a logo image and some text.  
+The logo is sourced from an image file and is displayed using an <img> tag.  
+The text consists of a heading (<h3>) and a title (<h4>).   
