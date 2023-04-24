@@ -11,27 +11,27 @@ To run the application, you will need to have Node.js and npm installed on your 
 
 ### Clone this repository to your local machine
 
-Install dependencies by running npm install in the project directory
-Start the development server by running npm start
-Open your browser and navigate to http://localhost:3000 to play the game
+Install dependencies by running npm install in the project directory  
+Start the development server by running npm start  
+Open your browser and navigate to http://localhost:3000 to play the game  
 
 ### How to Play
 
-Click the "Roll" button to roll the dice
-Click on individual dice to hold them at their current value
-Keep rolling and holding dice until all dice display the same value
-If you achieve Tenzies (all dice display the same value), confetti will appear and you can click "New Game" to play again
+Click the "Roll" button to roll the dice  
+Click on individual dice to hold them at their current value  
+Keep rolling and holding dice until all dice display the same value  
+If you achieve Tenzies (all dice display the same value), confetti will appear and you can click "New Game" to play again  
 
 ### Dependencies
 
 This application uses the following dependencies:
 
-React
-nanoid
-react-confetti
+React  
+nanoid  
+react-confetti  
 
 
 ### Credits
 
-This application was created by [David Jevtic].
+This application was created by [David Jevtic].  
 These dependencies are included in the package.json file and will be installed automatically when running npm install.
