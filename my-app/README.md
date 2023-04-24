@@ -5,6 +5,7 @@ This is a sample React application that displays some fun facts about React. It 
 ## Getting Started
 
 To get started with this app, clone this repository to your local machine and install the dependencies using npm:  
+
 git clone https://github.com/your-username/react-fun-facts-app.git  
 cd react-fun-facts-app  
 npm install  
