@@ -16,7 +16,7 @@ This will start the app in development mode and open it in your default browser 
 
 ### Main Component
 
-The Main component is defined in the src/components/Main.js file. It renders a <main> element that displays some fun facts about React. The facts are rendered as a list with each item as a list element.  
+The Main component is defined in the src/components/Main.js file. It renders a main element that displays some fun facts about React. The facts are rendered as a list with each item as a list element.  
 
 ### Navbar Component
 
