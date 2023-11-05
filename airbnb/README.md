@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# README for airbnb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains App.js and Data.js files and in one folder we have three components: Card.js, Hero.js, and Navbar.js.
 
-## Available Scripts
+### Components
 
-In the project directory, you can run:
+Card.js  
+The Card component is a reusable component that displays information about an experience, including its cover image, title, price, and location. It also displays a badge indicating whether the experience is sold out or online. The component receives props that contain information about the experience, including its title, description, price, cover image, stats (which include the rating and review count), location, and open spots. The component uses conditional rendering to display the badge based on whether the experience is sold out or online.  
 
-### `npm start`
+Hero.js  
+The Hero component is a reusable component that displays a hero image and a header and text introducing the online experiences. The component receives no props and simply renders the image and text.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navbar.js  
+The Navbar component is a reusable component that displays a logo in the navigation bar. The component receives no props and simply renders the logo.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+App.js  
+The App component is the main component that uses the Card, Hero, and Navbar components to display a list of experiences. It imports the Data.js file, which contains an array of experience objects. The component maps over the array to create a Card component for each experience object, passing the object as props to the Card component. The component uses the spread operator to pass all the properties of the object to the Card component as separate props. The component also sets a unique key prop for each Card component to avoid errors. The component then renders the Navbar, Hero, and Card components in the correct order.  
 
-### `npm test`
+Data.js  
+The Data.js file contains an array of experience objects that are used in the App component. Each experience object contains information about the experience, including its title, description, price, cover image, stats (which include the rating and review count), location, and open spots. The App component maps over this array to create a Card component for each experience object.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started
 
-### `npm run build`
+To get started with this project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository to your local machine.  
+Install the dependencies by running npm install in the root directory of the project.  
+Start the development server by running npm start. This will start the webpack dev server and launch the application in your default browser.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technologies Used  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React  
+HTML/CSS  
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
