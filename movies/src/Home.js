@@ -15,11 +15,11 @@ function Home() {
   const moviesListRef = useRef(null);
 
   useEffect(() => {
-    // Učitavanje žanrova iz themoviedb API-ja
+    // Ucitavanje zanrova iz themoviedb API-ja
     axios.get(`${GENRES_ENDPOINT}?api_key=${API_KEY}`)
       .then(response => {
         setGenres(response.data.genres);
-        // Postavlja početni žanr na prvi žanr iz liste
+        // Postavlja pocetni zanr na prvi zanr iz liste
         setSelectedGenre(response.data.genres[0]);
       })
       .catch(error => {
@@ -29,7 +29,7 @@ function Home() {
 
   useEffect(() => {
     if (selectedGenre) {
-      // Učitava filmove za odabrani žanr iz themoviedb API-ja
+      // Ucitava filmove za odabrani zanr iz themoviedb API-ja
       axios.get(`${MOVIES_ENDPOINT}?with_genres=${selectedGenre.id}&api_key=${API_KEY}`)
         .then(response => {
           setMovies(response.data.results);
