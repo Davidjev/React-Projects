@@ -23,7 +23,7 @@ export default function Home() {
         setSelectedGenre(response.data.genres[0]);
       })
       .catch(error => {
-        console.error('Greška prilikom dohvatanja žanrova:', error);
+        console.error('Greska prilikom dohvatanja zanrova:', error);
       });
   }, []);
 
