@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slika from "./components/slika.jpg"
 
-function LoginScreen() {
+export default function LoginScreen() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -75,5 +75,3 @@ function LoginScreen() {
     </div>
   );
 }
-
-export default LoginScreen;
