@@ -5,7 +5,7 @@ const API_KEY = 'd38aa8716411ef7d8e9054b34a6678ac';
 const GENRES_ENDPOINT = 'https://api.themoviedb.org/3/genre/movie/list';
 const MOVIES_ENDPOINT = 'https://api.themoviedb.org/3/discover/movie';
 
-function Home() {
+export default function Home() {
   const [genres, setGenres] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState(null);
   const [movies, setMovies] = useState([]);
@@ -97,5 +97,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;
